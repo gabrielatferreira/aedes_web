@@ -1,6 +1,6 @@
 header {
     text-align: center;
-    background-color: black;
+    background: linear-gradient(180deg, #1e7e34, transparent);
 }
 
 ul {
@@ -11,6 +11,17 @@ ul {
 li {
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
+
+ .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #9cd5a9;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.nav-link.active:hover{
+    color: aliceblue;
+    text-decoration: white;
+}
 
 .logoaedesweb {
     padding: 15px;
@@ -26,6 +37,9 @@ li {
 h2 {
     font-size: 25px;
     text-align: left;
+    background: linear-gradient(45deg, #79ad85, transparent);
+    padding-left: 8px;
+    box-shadow: 1px 1px 0px #00000045;
 }
 
 hr {
@@ -66,10 +80,17 @@ h3 {
 footer {
     display: flex;
     color: aliceblue;
-    background-color: black;
+    background: linear-gradient(0deg, #1e7e34, transparent);
     justify-content: center;
     align-items: flex-end;
     padding: 10px;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color:#495057 ;
+    
 }
 
 .logoaedeswebfooter {
