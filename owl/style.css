@@ -123,6 +123,9 @@ footer a{
     width: 6%; 
 }
 
+
+/*Algumas alterações de responsividade */
+
 @media(max-width: 1200px){
     #mosquito-img-container .mosquito{
     margin: 0px 14px;
@@ -139,7 +142,7 @@ footer a{
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 620px){
 #mosquito-img-container .mosquito {
     margin: 0px 8px;
     width: 130px;
