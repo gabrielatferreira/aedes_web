@@ -124,7 +124,7 @@ footer a{
 }
 
 
-/*Algumas alterações de responsividade */
+/*Algumas alterações de responsividade: #mosquito-img-container .mosquito */
 
 @media(max-width: 1200px){
     #mosquito-img-container .mosquito{
