@@ -12,17 +12,17 @@ li {
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
 
- .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: #495057;
+ .nav-tabs .nav-item .nav-link {
+    color: #1e7e34;
     background-color: #9cd5a9;
     border-color: #dee2e6 #dee2e6 #fff;
 }
 
-.nav-link.active:hover{
-    color: aliceblue;
-    text-decoration: white;
-}
+.nav-tabs .nav-item .nav-link:hover{
+    color: white;
 
+}
+    
 .logoaedesweb {
   
     text-align: center;
@@ -126,34 +126,48 @@ footer a{
 
 /*Algumas alterações de responsividade: #mosquito-img-container .mosquito */
 
-@media(max-width: 1200px){
-    #mosquito-img-container .mosquito{
-    margin: 0px 14px;
-    width: 190px;
-    justify-content: center;
-    }
-}
 
-@media (max-width: 800px){
+@media (max-width: 768px){
     #mosquito-img-container .mosquito {
-    margin: 0px 14px;
-    width: 150px;
-    justify-content: center;
+        margin: 0px 16px;
+        width: 28%;
+        justify-content: center;
+    }
+
+    .logoaedesweb{
+        width: 30%;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 1.5em;
     }
 }
 
-@media (max-width: 620px){
-#mosquito-img-container .mosquito {
-    margin: 0px 8px;
-    width: 130px;
-    justify-content: center;
-    }
-}
 
-@media (max-width: 420px){
+
+@media (max-width: 414px){
 #mosquito-img-container .mosquito {
-    margin: 0px 8px;
-    width: 77px;
+    margin: 0px 4px;
+    width: 30%;
     justify-content: center;
+    
+}
+    .logoaedesweb{
+        width: 35%;
     }
+
+    h3 {
+        text-align: center;
+        font-size: 1.3em;
+        margin: 0px 50px;
+    }
+
+    footer p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #034a03;
+    }
+
+    
 }
