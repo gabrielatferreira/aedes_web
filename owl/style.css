@@ -6,10 +6,11 @@ header {
 ul {
     align-items: flex-end;
     justify-content: center;
+    padding-left: 80px;
 }
 
 li {
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
 
  .nav-tabs .nav-item .nav-link {
@@ -20,14 +21,13 @@ li {
 
 .nav-tabs .nav-item .nav-link:hover{
     color: white;
-
 }
     
 .logoaedesweb {
-  
     text-align: center;
     width: 12%;  
 }
+
 h1 {
     margin:0 50px;
 }
@@ -129,7 +129,6 @@ footer a{
 
 @media (max-width: 768px){
     #mosquito-img-container .mosquito {
-        margin: 0px 16px;
         width: 28%;
         justify-content: center;
     }
