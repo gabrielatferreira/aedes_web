@@ -67,6 +67,14 @@ hr {
     text-indent: 20px;
 }
 
+ul {
+    align-items: flex-end;
+    justify-content: center;
+    padding-left: 80px;
+    border-radius: 10px;
+    background: #93d7a266;
+}
+
 #mosquito-img-container{
     display:flex;
     justify-content: center;
@@ -180,4 +188,35 @@ footer a{
     margin-top: 3%;
     margin-bottom: 5%;
     text-align: justify;
+}
+
+
+
+/*Página Sobre*/
+
+.tabelaSobre {
+    
+    margin: auto;
+    border: 6px solid #1e7e34;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    background: linear-gradient(177deg, #28a745, #00000059);
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    color:  #212529;;
+    text-transform: capitalize;
+    font-weight: inherit;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background: linear-gradient(1deg, #ffffff, #00000059);
 }
