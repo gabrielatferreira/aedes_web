@@ -162,6 +162,10 @@ footer img {
         width: 30%;
     }
 
+    .titulo{
+        text-align: center;
+    }
+
     h3 {
         text-align: center;
         font-size: 1.5em;
@@ -182,6 +186,10 @@ footer img {
     main{
         margin: 0;
         padding:2px;
+    }
+
+    .titulo{
+        text-align: center;
     }
     
 
@@ -231,6 +239,10 @@ footer img {
         margin: 0;
         padding:2px;
     }
+
+    .titulo{
+        text-align: center;
+    }
     
 
     .logoaedesweb{
@@ -245,6 +257,7 @@ footer img {
 
     h2{
         text-align: center;
+        text-size-adjust: inherit;
     }
 
     ul {
