@@ -17,6 +17,8 @@ li {
     color: #1e7e34;
     background-color: #9cd5a9;
     border-color: #dee2e6 #dee2e6 #fff;
+    width: 120px;
+    border-radius: 10px;
 }
 
 .nav-tabs .nav-item .nav-link:hover{
@@ -51,6 +53,7 @@ h2 {
     background: linear-gradient(45deg, #79ad85, transparent);
     padding-left: 8px;
     box-shadow: 1px 1px 0px #00000045;
+    text-transform: uppercase;
 }
 
 hr {
@@ -75,17 +78,31 @@ ul {
     background: #93d7a266;
 }
 
-#mosquito-img-container{
-    display:flex;
-    justify-content: center;
-    width: 98%;
+.textoaedes,  li{
+    padding: 4px 0;
+}
    
+    
+
+
+#aedes{
+    max-width: 100%;
+    padding: 10px;
+    width: 800px;
+    display: block;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 50px;
 }
 
-#mosquito-img-container .mosquito{
-    margin: 0 10px;
-    width:300px;
-   
+.img-mosquito{
+    max-width: 100%;
+    padding: 10px;
+    width: 800px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    object-fit: fill;
 }
 
 .box-foto {
@@ -107,7 +124,8 @@ h3 {
 }
 
 .formulario {
-    margin: 25px;
+    margin: auto;
+    width: 60%;
 }
 
 footer {
@@ -136,11 +154,7 @@ footer a{
 
 
 @media (max-width: 768px){
-    #mosquito-img-container .mosquito {
-        width: 28%;
-        justify-content: center;
-    }
-
+    
     .logoaedesweb{
         width: 30%;
     }
@@ -149,17 +163,26 @@ footer a{
         text-align: center;
         font-size: 1.5em;
     }
+
+    .logoaedeswebfooter {
+        padding: 10px;
+        width: 10%;
+    }
 }
 
 
 
 @media (max-width: 414px){
-#mosquito-img-container .mosquito {
-    margin: 0px 4px;
-    width: 30%;
-    justify-content: center;
+
+    .nav-tabs{
+        justify-content: center;
+    }
+    main{
+        margin: 0;
+        padding:2px;
+    }
     
-}
+
     .logoaedesweb{
         width: 35%;
     }
@@ -170,10 +193,28 @@ footer a{
         margin: 0px 50px;
     }
 
-    footer p{
-    margin-top: 0;
-    margin-bottom: 1rem;
-    color: #034a03;
+    h2{
+        text-align: center;
+    }
+
+    ul {
+        align-items: flex-start;
+        justify-content: start;
+        padding-left: 48px;
+        border-radius: 10px;
+        background: #93d7a266;
+    }
+
+    .logoaedeswebfooter {
+        padding: 10px;
+        width: 20%;
+    }
+
+    footer p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: #034a03;
+        text-align: center;
     }
 
     
@@ -199,17 +240,17 @@ footer a{
     margin: auto;
     border: 6px solid #1e7e34;
     border-radius: 10px;
-    padding: 10px;
+    padding: 1px;
 }
 
 .card-header:first-child {
     border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
-    background: linear-gradient(177deg, #28a745, #00000059);
+    background: #93d7a298;
 }
 
 .btn:not(:disabled):not(.disabled) {
     cursor: pointer;
-    color:  #212529;;
+    color:  #033d20;;
     text-transform: capitalize;
     font-weight: inherit;
 }
@@ -218,5 +259,5 @@ footer a{
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     padding: 1.25rem;
-    background: linear-gradient(1deg, #ffffff, #00000059);
+    background: linear-gradient(1deg, #ffffff, #00000000);
 }
