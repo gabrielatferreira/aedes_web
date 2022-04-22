@@ -22,6 +22,9 @@ li {
     border-radius: 10px;
 }
 
+
+
+
 .nav-tabs .nav-item .nav-link:hover{
     color: white;
 }
@@ -67,10 +70,11 @@ hr {
 }
 
 .textoaedes {
-    text-align: justify;
+    text-align:justify;
     margin: 0 25px 15px 25px;
     line-height: 23px;
     text-indent: 20px;
+    
 }
 
  ul {
