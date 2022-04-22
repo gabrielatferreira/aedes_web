@@ -82,9 +82,6 @@ ul {
 .textoaedes,  li{
     padding: 4px 0;
 }
-   
-    
-
 
 #aedes{
     max-width: 100%;
@@ -131,12 +128,17 @@ h3 {
 
 footer {
     display: flex;
-    color: aliceblue;
+    color: black;
     background: linear-gradient(0deg, #1e7e34, transparent);
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     padding: 10px;
+    text-align: center;
     
+}
+
+footer p{
+    margin-top: 10px;
 }
 
 footer a{
@@ -145,16 +147,16 @@ footer a{
     
 }
 
-.logoaedeswebfooter {
+footer img {
     padding: 10px;
-    width: 6%; 
+    width: 8%;
 }
 
 
 /*Algumas alterações de responsividade: #mosquito-img-container .mosquito */
 
 
-@media (max-width: 768px){
+@media (max-width: 768px ){
     
     .logoaedesweb{
         width: 30%;
@@ -165,12 +167,57 @@ footer a{
         font-size: 1.5em;
     }
 
-    .logoaedeswebfooter {
+    footer img {
         padding: 10px;
         width: 10%;
+        
     }
 }
 
+@media (max-width: 700px){
+
+    .nav-tabs{
+        justify-content: center;
+    }
+    main{
+        margin: 0;
+        padding:2px;
+    }
+    
+
+    .logoaedesweb{
+        width: 35%;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 1.3em;
+        margin: 0px 50px;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    ul {
+        align-items: flex-start;
+        justify-content: start;
+        padding-left: 48px;
+        border-radius: 10px;
+        background: #93d7a266;
+    }
+
+    footer img {
+        padding: 10px;
+        width: 15%;
+       
+    }
+
+    footer p {
+       
+        margin-bottom: 1rem;
+        text-align: center;
+    }
 
 
 @media (max-width: 414px){
@@ -206,15 +253,14 @@ footer a{
         background: #93d7a266;
     }
 
-    .logoaedeswebfooter {
+    footer img {
         padding: 10px;
         width: 20%;
+       
     }
 
     footer p {
-        margin-top: 0;
         margin-bottom: 1rem;
-        color: #034a03;
         text-align: center;
     }
 
