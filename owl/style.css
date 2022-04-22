@@ -3,10 +3,11 @@ header {
     background: linear-gradient(180deg, #1e7e34, transparent);
 }
 
-ul {
+.nav-tabs {
     align-items: flex-end;
+    margin: auto;
     justify-content: center;
-    padding-left: 80px;
+    padding: 0 !important; 
 }
 
 li {
@@ -53,8 +54,9 @@ h2 {
     background: linear-gradient(45deg, #79ad85, transparent);
     padding: 10px;
     border-radius: 8px;
-    box-shadow: 1px 1px 0px #00000045;
+    box-shadow: 0px 1px 0px #00000045;
     text-transform: uppercase;
+   
 }
 
 hr {
@@ -71,12 +73,13 @@ hr {
     text-indent: 20px;
 }
 
-ul {
+ ul {
     align-items: flex-end;
     justify-content: center;
-    padding-left: 80px;
+    padding: 30px 80px;
     border-radius: 10px;
     background: #93d7a266;
+    box-shadow: 1px 1px #00000024;
 }
 
 .textoaedes,  li{
@@ -85,12 +88,11 @@ ul {
 
 #aedes{
     max-width: 100%;
-    padding: 10px;
     width: 800px;
     display: block;
     margin: auto;
     border: 1px solid white;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 .img-mosquito{
@@ -114,7 +116,9 @@ ul {
 }
 
 h3 {
-    text-align: center;
+    margin-left: 52px;
+    padding: 10px 0;
+    text-align: left;
 }
 
 .denuncie {
@@ -122,8 +126,9 @@ h3 {
 }
 
 .formulario {
-    margin: auto;
+    margin-left:52px ;
     width: 60%;
+    margin-bottom: 50px;
 }
 
 footer {
@@ -164,7 +169,7 @@ footer img {
 
 
     h3 {
-        text-align: center;
+       
         font-size: 1.5em;
     }
 
@@ -190,9 +195,9 @@ footer img {
     }
 
     h3 {
-        text-align: center;
+        
         font-size: 1.3em;
-        margin: 0px 50px;
+        
     }
 
     h2{
@@ -237,9 +242,9 @@ footer img {
     }
 
     h3 {
-        text-align: center;
+        
         font-size: 1.3em;
-        margin: 0px 50px;
+       
     }
 
     h2{
