@@ -86,11 +86,12 @@ hr {
 
 .textoaedes,  li{
     padding: 4px 0;
+    
 }
 
 #aedes{
     max-width: 100%;
-    width: 800px;
+    width: 600px;
     display: block;
     margin: auto;
     border: 1px solid white;
