@@ -137,14 +137,16 @@ h3 {
 #link-topo{
     display: flex;
     justify-content: center;
+    align-items: center;
     text-decoration: none;
     color: white;
     background-color: #0ba830;
-    padding: 10px;
-    width: 40px;
+    padding: 4px;
+    width: 50px;
+    height: 50px;
     margin-left: 88%;
-    border-radius: 10px;
-    font-size: 1.3em;
+    border-radius: 30px;
+    font-size: 3em;
     
     
 }
