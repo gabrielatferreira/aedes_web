@@ -134,10 +134,25 @@ h3 {
     margin-bottom: 50px;
 }
 
+#link-topo{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: #0ba830;
+    padding: 10px;
+    width: 40px;
+    margin-left: 88%;
+    border-radius: 10px;
+    font-size: 1.3em;
+    
+    
+}
+
 footer {
     display: flex;
     color: black;
-    background: linear-gradient(0deg, #1e7e34, transparent);
+    background: linear-gradient(0deg, #43754f, transparent);
     justify-content: center;
     align-items: center;
     padding: 10px;
@@ -287,6 +302,12 @@ footer img {
     margin-bottom: 5%;
     text-align: center;
 }
+
+.btn-link{
+    width:100%;
+}
+
+
 
 
 
