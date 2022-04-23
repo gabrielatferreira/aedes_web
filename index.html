@@ -17,8 +17,30 @@
     <link rel="shortcut icon" href="fotos/logo.png" type="image/x-icon">
     <title>AedesWeb</title>
 </head>
+<div class="popup-screen">
+    <div class="popup-box">
+        <button class="fas fa-times close-btn">&#10006;</button>
+        <img id="img-popup" src="fotos/mosquito-dengue2.png" alt="">
+    </div>
+    <script type="text/javascript">
+    const popupScreen = document.querySelector(".popup-screen")
+    const popupBox = document.querySelector(".popup-box")
+    const closeBtn = document.querySelector(".close-btn")
+   
+    window.addEventListener("load", () =>{
+        setTimeout(() => {
+        popupScreen.classList.add("active")   
+        },500);
+
+        closeBtn.addEventListener("click",() =>{
+            popupScreen.classList.remove("active")
+        });
+    });
+        
+    </script>
+</div>
 <header>
-    <img class="logoaedesweb" src="fotos/logo.png">
+       <img class="logoaedesweb" src="fotos/logo.png">
     <h1>Aedes Web</h1>
     <ul class="nav nav-tabs">
         <li class="nav-item">
