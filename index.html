@@ -180,7 +180,25 @@
     <script src="js/setup.js" ></script>
     <script src="js/alert.js" ></script>
 </body>
-<a id="link-topo" href="#" title="Voltar ao topo">&#129081;</a>
+<section>
+    <button class="scrollTop" onclick="backTop();">
+        <img src="fotos/btn-topo.png" alt="" title="Voltar ao Topo">
+    </button>
+</section>
+<script>
+    window.addEventListener('scroll', function(){
+        let scroll =document.querySelector('.scrollTop')
+            scroll.classList.toggle('active',window.scrollY > 2500)
+    })
+    function backTop(){
+        window.scrollTo({
+            top: 0, 
+            behavior:"smooth" 
+        })
+    }
+        
+
+</script>
 <footer>
     <img  src="fotos/logo.png" class="img-fluid" alt="Imagem responsiva" >
     <p>Site desenvolvido pelo grupo <strong>Dengosos</strong> <a href="#">UniFtec</a> 2022 ©Copyright</p>
