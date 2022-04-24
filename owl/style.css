@@ -46,7 +46,7 @@
    position: absolute; 
    font-size: 1em;
    top: 0;
-   right: 210px;
+   right: 25%;
    margin: 15px;
    cursor: pointer;
    opacity: 0.5;
@@ -242,7 +242,15 @@ footer img {
 
 
 @media (max-width: 768px ){
-    
+    #img-popup {
+        width: 100%;
+    }
+
+    .close-btn{
+    right: 0%;
+    margin: 15px;
+    }
+
     .logoaedesweb{
         width: 30%;
     }
@@ -261,6 +269,10 @@ footer img {
 }
 
 @media (max-width: 700px){
+
+    #img-popup {
+        width: 100%;
+    }
 
     .nav-tabs{
         justify-content: center;
@@ -308,6 +320,15 @@ footer img {
 }
 
 @media (max-width: 414px){
+    
+    #img-popup {
+        width: 100%;
+    }
+
+    .close-btn{
+    right: 0%;
+    margin: 8px
+    }
 
     .nav-tabs{
         justify-content: center;
