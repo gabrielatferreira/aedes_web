@@ -204,7 +204,7 @@ h3 {
     align-items: center;
     justify-content: center;
     position: fixed;
-    right: 30px;
+    right: 0;
     bottom: 10px;
     z-index: 999;
     background-color: #7ad8904b;
@@ -278,10 +278,10 @@ footer img {
         font-size: 1.5em;
     }
 
-    .scrollTop.active{
-        visibility: hidden;
+    .scrollTop{
+        right: 0;
+        bottom: 50px;
     }
-    
 
     footer img {
         padding: 10px;
@@ -326,9 +326,7 @@ footer img {
         background: #93d7a266;
     }
 
-    .scrollTop.active{
-        visibility: hidden;
-    }
+    
 
     footer img {
         padding: 10px;
@@ -386,10 +384,11 @@ footer img {
         background: #93d7a266;
     }
 
-    .scrollTop.active{
-        visibility: hidden;
+    .scrollTop{
+        right: 10px;
+        bottom: 70px;
     }
-    
+
     footer img {
         padding: 10px;
         width: 20%;
@@ -418,10 +417,6 @@ footer img {
 .btn-link{
     width:100%;
 }
-
-
-
-
 
 /*Página Sobre*/
 
