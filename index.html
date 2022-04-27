@@ -3,17 +3,17 @@
 <head>
     <!-- ARQUVOS BOOTSTRAP CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
+
     <!-- ARQUVOS OWL CSS-->
     <link rel="stylesheet" href="owl/owl.carousel.min.css">
     <link rel="stylesheet" href="owl/owl.theme.default.min.css">
     <link rel="stylesheet" href="owl/style.css">
-    
+
     <!-- ARQUVOS META-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <link rel="shortcut icon" href="fotos/logo.png" type="image/x-icon">
     <title>AedesWeb</title>
 </head>
@@ -23,24 +23,23 @@
         <img id="img-popup" src="fotos/mosquito-dengue2.png" alt="">
     </div>
     <script type="text/javascript">
-    const popupScreen = document.querySelector(".popup-screen")
-    const popupBox = document.querySelector(".popup-box")
-    const closeBtn = document.querySelector(".close-btn")
-   
-    window.addEventListener("load", () =>{
-        setTimeout(() => {
-        popupScreen.classList.add("active")   
-        },100);
+        const popupScreen = document.querySelector(".popup-screen")
+        const popupBox = document.querySelector(".popup-box")
+        const closeBtn = document.querySelector(".close-btn")
 
-        closeBtn.addEventListener("click",() =>{
-            popupScreen.classList.remove("active")
-        });
-    });
-        
+        window.addEventListener("load", () =>{
+            setTimeout(() => {
+            popupScreen.classList.add("active")   
+            },100);
+
+            closeBtn.addEventListener("click",() =>{
+                popupScreen.classList.remove("active")
+            });
+        }); 
     </script>
 </div>
 <header>
-       <img class="logoaedesweb" src="fotos/logo.png">
+    <img class="logoaedesweb" src="fotos/logo.png">
     <h1>Aedes Web</h1>
     <ul class="nav nav-tabs">
         <li class="nav-item">
@@ -50,7 +49,10 @@
           <a class="nav-link" target="_self" href="sobre-nav.html">Sobre</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" target="_self" type="button" href="referencia-nav.html">Referências</a>
+          <a class="nav-link" target="_self" type="button" href="saiba-mais-nav.html">Saiba mais</a>
+        </li>
+        <li class="nav-item">
+          <a  id="denuncie-nav" class="nav-link" target="_self" type="button" href="#denuncie">DENUNCIE</a>
         </li>
       </ul>
 </header>
@@ -155,7 +157,7 @@
         </div>
     </main>
     <br>
-    <h3>Tem alguma informação de foco do mosquito da dengue?</h3>
+    <h3 id="denuncie">Tem alguma informação de foco do mosquito da dengue?</h3>
     <h3><span class="denuncie">Denuncie</span> preenchendo o formulário abaixo:</h3>
     <div class="formulario">
         <form>
@@ -202,8 +204,6 @@
             behavior:"smooth" 
         })
     }
-        
-
 </script>
 <footer>
     <img  src="fotos/logo.png" class="img-fluid" alt="Imagem responsiva" >
