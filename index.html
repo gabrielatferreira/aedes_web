@@ -19,25 +19,11 @@
 </head>
 <div class="popup-screen">
     <div class="popup-box">
-        <button class="fas fa-times close-btn">&#10006;</button>
+        <button class="close-btn" title="Fechar">X</button>
         <img id="img-popup" src="fotos/ilustração-aedes.jpg" alt="">
     </div>
-    <script type="text/javascript">
-        const popupScreen = document.querySelector(".popup-screen")
-        const popupBox = document.querySelector(".popup-box")
-        const closeBtn = document.querySelector(".close-btn")
-
-        window.addEventListener("load", () =>{
-            setTimeout(() => {
-            popupScreen.classList.add("active")   
-            },100);
-
-            closeBtn.addEventListener("click",() =>{
-                popupScreen.classList.remove("active")
-            });
-        }); 
-    </script>
 </div>
+<script src="js/popup.js"></script>
 <header>
     <img class="logoaedesweb" src="fotos/logo.png">
     <h1>Aedes Web</h1>
@@ -51,11 +37,14 @@
         <li class="nav-item">
           <a class="nav-link" target="_self" type="button" href="saiba-mais-nav.html">Saiba mais</a>
         </li>
-        <li class="nav-item">
-          <a  id="denuncie-nav" class="nav-link" target="_self" type="button" href="#denuncie">DENUNCIE</a>
-        </li>
       </ul>
+      
       </header>
+      <section id="scroll-denuncia">
+          <button class="scrollDenunciar">
+            <a href=""><img src="fotos/btn-denuncie.png" alt="" title="Denúnciar" id="img-denuncia"></a>
+          </button>
+      </section>
 <body>
     <main>
         <div class="container">
@@ -188,27 +177,16 @@
     <script src="js/setup.js" ></script>
     <script src="js/alert.js" ></script>
 </body>
-<section>
-    <button class="scrollTop" onclick="backTop();">
-        <img src="fotos/btn-topo.png" alt="" title="Voltar ao Topo">
+<section id="scroll-top">
+    <button class="scrollTop">
+        <a href=""><img src="fotos/btn-topo.png" alt="" title="Voltar ao Topo"></a>
     </button>
 </section>
-<script>
-    window.addEventListener('scroll', function(){
-        let scroll =document.querySelector('.scrollTop')
-            scroll.classList.toggle('active',window.scrollY > 1000)
-    })
-    function backTop(){
-        window.scrollTo({
-            top: 0, 
-            behavior:"smooth" 
-        })
-    }
-</script>
 <footer>
     <img  src="fotos/logo.png" class="img-fluid" alt="Imagem responsiva" >
     <p>Site desenvolvido pelo grupo <strong>Dengosos</strong> <a href="#">UniFtec</a> 2022 ©Copyright</p>
 </footer>
+<script src="js/btn-scrolls.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
