@@ -484,6 +484,7 @@ footer img {
     color:  #033d20;;
     text-transform: capitalize;
     font-weight: inherit;
+    text-decoration: none;
 }
 
 .card-body {
@@ -495,6 +496,12 @@ footer img {
 
 .card:hover{
     background-color: #43754f;
+   
+}
+
+.btn:not(:disabled):not(.disabled):hover{
+    color: white;
+   
 }
 
 
