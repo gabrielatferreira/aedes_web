@@ -297,7 +297,7 @@ footer img {
 
 /*Algumas alterações de responsividade: */
 
-@media (max-width:900px ) {
+@media (max-width:1200px ) {
     #img-popup {
         width: 100%;
     }
@@ -318,6 +318,10 @@ footer img {
     .scrollTop {
         right: 0;
         bottom: 50px;
+    }
+    .scrollDenunciar {
+        position: absolute;
+        top:0px;
     }
 
 
