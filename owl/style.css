@@ -275,7 +275,7 @@ footer img {
 .scrollDenunciar #img-denuncia {
     width: 50%;
 }
-
+ 
 
 
 @keyframes animacaoDenuncia{
@@ -287,7 +287,7 @@ footer img {
     }
 
 }
- .scrollDenunciar{
+ #img-denuncia{
      animation-name: animacaoDenuncia;
      animation-duration: 1s;
      animation-timing-function: ease-in-out;
@@ -297,7 +297,7 @@ footer img {
 
 /*Algumas alterações de responsividade: */
 
-@media (max-width: 768px ) {
+@media (max-width:900px ) {
     #img-popup {
         width: 100%;
     }
@@ -309,11 +309,6 @@ footer img {
 
     .logoaedesweb {
         width: 30%;
-    }
-
-    .scrollDenunciar {
-        
-        left: -40px;
     }
 
     h3 {
@@ -332,7 +327,7 @@ footer img {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 680px) {
 
     #img-popup {
         width: 100%;
@@ -350,7 +345,7 @@ footer img {
     .logoaedesweb {
         width: 35%;
     }
-
+    
     h3 {
         margin: 0;
         padding: 10px 0px;
@@ -382,7 +377,7 @@ footer img {
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 700px) {
     
     #img-popup {
         width: 100%;
