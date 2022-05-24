@@ -299,7 +299,7 @@ footer img {
 
 @media (max-width:1200px ) {
     #img-popup {
-        width: 100%;
+        width: 80%;
     }
 
     .close-btn {
