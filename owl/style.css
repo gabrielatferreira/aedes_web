@@ -298,9 +298,7 @@ footer img {
 /*Algumas alterações de responsividade: */
 
 @media (max-width:1200px ) {
-    #img-popup {
-        width: 80%;
-    }
+    
 
     .close-btn {
     right: 0%;
