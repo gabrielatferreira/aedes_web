@@ -19,7 +19,8 @@
 }
 
 .popup-box {
-    position: relative;
+    position: absolute;
+    top: 10%;
     background-color: rgba(255, 255, 255, 0);
     backdrop-filter: blur(10px);
     display: flex;
@@ -94,6 +95,31 @@ li {
     text-align: center;
     width: 12%;  
 }
+
+#scroll-denuncia{
+    display: flex;
+}
+
+.scrollDenunciar {
+    outline: none;
+    border: 0;
+    margin-top: 12px;
+    display: flex;
+    top: 0;
+    right: 0;
+    justify-content: center;
+    position: absolute;
+    z-index: 1000;
+    background-color: #7ad89000;
+    cursor: pointer;
+    opacity: 0.;
+    transition: all .4s ease;
+}
+
+.scrollDenunciar #img-denuncia {
+    width: 50%;
+}
+ 
 
 h1 {
     margin:0 50px;
@@ -227,6 +253,13 @@ h3 {
     text-decoration: none;
 }
 
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+
+
 footer {
     display: flex;
     color: black;
@@ -252,30 +285,7 @@ footer img {
     width: 8%;
 }
 
-#scroll-denuncia{
-    display: flex;
-}
 
-.scrollDenunciar {
-    outline: none;
-    border: 0;
-    margin-top: 12px;
-    display: flex;
-    top: 0;
-    left: 0;
-    justify-content: center;
-    position: absolute;
-    z-index: 1000;
-    background-color: #7ad89000;
-    cursor: pointer;
-    opacity: 0.;
-    transition: all .4s ease;
-}
-
-.scrollDenunciar #img-denuncia {
-    width: 50%;
-}
- 
 
 
 @keyframes animacaoDenuncia{
@@ -366,6 +376,8 @@ footer img {
         background: #93d7a266;
     }
 
+  
+
     footer img {
         padding: 10px;
         width: 15%;
@@ -379,7 +391,7 @@ footer img {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     
     #img-popup {
         width: 100%;
@@ -394,10 +406,15 @@ footer img {
         justify-content: center;
     }
 
+    
     .scrollDenunciar {
-       
-        width: 60%;
-        left: -40px;
+        width: 30%;
+        right: 5%;
+        
+    }
+
+    .scrollDenunciar #img-denuncia {
+        width: 100%;
     }
 
     main {
@@ -432,6 +449,8 @@ footer img {
         right: 10px;
         bottom: 70px;
     }
+
+    
 
     footer img {
         padding: 10px;
