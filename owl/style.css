@@ -106,7 +106,7 @@ li {
     margin-top: 12px;
     display: flex;
     top: 0;
-    right: 0;
+    right: 10%;
     justify-content: center;
     position: absolute;
     z-index: 1000;
@@ -117,7 +117,10 @@ li {
 }
 
 .scrollDenunciar #img-denuncia {
-    width: 50%;
+    
+        width: 50%;
+        box-shadow: 1px 2px 14px #000;
+        border-radius: 100%;
 }
  
 
@@ -349,6 +352,10 @@ footer img {
         justify-content: center;
     }
 
+    .scrollDenunciar #img-denuncia {
+        width: 70%;
+    }
+
     main {
         margin: 0;
         padding:2px;
@@ -414,7 +421,7 @@ footer img {
     }
 
     .scrollDenunciar #img-denuncia {
-        width: 100%;
+        width: 60%;
     }
 
     main {
